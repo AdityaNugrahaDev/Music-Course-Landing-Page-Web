@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page Website</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Stylesheet CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="#">The Muse</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#course"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Course
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Violin</a></li>
+                  <li><a class="dropdown-item" href="#">Piano</a></li>
+                  <li><a class="dropdown-item" href="#">Guitar</a></li>
+                  <li><a class="dropdown-item" href="#">Saxophone</a></li>
+                  <li><a class="dropdown-item" href="#">Drum</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+      <!-- Hero Section Start -->
+      <section
+        class="hero d-flex align-items-center justify-content-center text-center"
+        id="home"
+        style="
+          background-image: url('assets/images/home music.jpg');
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          height: 100vh;
+          position: relative;
+        "
+      >
+        <div class="overlay"></div>
+        <div class="content">
+          <h1 class="display-4">Explore the World of Music with Us</h1>
+          <p class="lead">
+            Dive into a world where melodies unfold stories and rhythms resonate
+            with your soul. Let us take you on a journey through the wonders of
+            musical exploration.
+          </p>
+          <hr class="my-4" />
+          <div class="btn-container">
+            <a class="btn btn-primary btn-lg" href="#about" role="button"
+              >Get Started</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section End -->
+    </header>
+    <main>
+      <!-- About Section Start -->
+      <section class="about py-5" id="about">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col text-center">
+              <h2>About Us</h2>
+              <p>
+                Welcome to The Muse, your premier destination for mastering the
+                art of music. We are dedicated to providing top-notch music
+                education, whether you're a beginner looking to start your
+                musical journey or an experienced musician seeking to hone your
+                skills. At The Muse, we believe in the transformative power of
+                music and are committed to nurturing your passion and talent.
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center mb-5">
+            <div class="col-md-6 mb-4 mb-md-0">
+              <img
+                src="assets/images/about music.jpg"
+                class="img-fluid rounded"
+                alt="about image"
+              />
+            </div>
+            <div class="col-md-6">
+              <p class="text-justify">
+                Our courses are designed by experienced instructors who bring a
+                wealth of knowledge and expertise to the classroom. Whether you
+                prefer online lessons or in-person instruction, we offer a
+                variety of options to fit your schedule and learning style. From
+                classical to contemporary, we cover a wide range of musical
+                genres to ensure a comprehensive learning experience.
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-6 order-md-2 mb-4 mb-md-0">
+              <img
+                src="assets/images/about music 2.jpg"
+                class="img-fluid rounded"
+                alt="about image"
+              />
+            </div>
+            <div class="col-md-6 order-md-1">
+              <p class="text-justify">
+                At The Muse, we are more than just a music school. We are a
+                community of music lovers and enthusiasts who come together to
+                share and celebrate our love for music. Join us and become part
+                of a vibrant community that supports and inspires each other to
+                achieve musical greatness.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+      <!-- Lessons Section Start -->
+      <section id="course" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center mb-4">
+              <h2>Our Courses</h2>
+            </div>
+          </div>
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="assets/images/Violin Class.jpg"
+                  class="card-img-top"
+                  alt="Violin Class"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="text-center">Violin</h3>
+                  <p class="card-text mt-auto text-center">
+                    Dive into the melodic world of the Violin with our
+                    expert-led classes. Explore the beauty of classical strings
+                    and master timeless compositions.
+                  </p>
+                  <div class="text-center mt-3">
+                    <a href="" class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="assets/images/Piano Class.jpg"
+                  class="card-img-top"
+                  alt="Piano Class"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="text-center">Piano</h3>
+                  <p class="card-text mt-auto text-center">
+                    Unlock the magic of the Piano with our comprehensive
+                    courses. From classical to contemporary, discover your
+                    musical passion and refine your skills.
+                  </p>
+                  <div class="text-center mt-3">
+                    <a href="" class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="assets/images/Guitar Class.jpg"
+                  class="card-img-top"
+                  alt="Guitar Class"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="text-center">Guitar</h3>
+                  <p class="card-text mt-auto text-center">
+                    Strum your way through our Guitar classes and uncover the
+                    art of chords and melodies. Perfect for beginners and
+                    enthusiasts alike.
+                  </p>
+                  <div class="text-center mt-3">
+                    <a href="" class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="assets/images/Saxophone Class.jpg"
+                  class="card-img-top"
+                  alt="Saxophone Class"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="text-center">Saxophone</h3>
+                  <p class="card-text mt-auto text-center">
+                    Embrace the soulful notes of the Saxophone in our engaging
+                    courses. Learn the techniques to express yourself through
+                    smooth jazz and vibrant tones.
+                  </p>
+                  <div class="text-center mt-3">
+                    <a href="" class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="assets/images/Drum Class.jpg"
+                  class="card-img-top"
+                  alt="Drum Class"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="text-center">Drum</h3>
+                  <p class="card-text mt-auto text-center">
+                    Feel the rhythm with our Drum classes, where beats come
+                    alive. From rock to jazz, explore various styles and unleash
+                    your musical groove.
+                  </p>
+                  <div class="text-center mt-3">
+                    <a href="" class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Lessons Section End -->
+      <!-- Contact Section Start -->
+      <section id="contact">
+        <div class="container">
+          <div class="row text-center mb-5">
+            <div class="col">
+              <h2>Contact Us</h2>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-md-6 mb-3">
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253813.82943030156!2d106.8053081380838!3d-6.284610395345899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d8546ad633d%3A0x79e8de8965402078!2sKota%20Bks%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1720086160151!5m2!1sid!2sid"
+                  width="100%"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    aria-describedby="name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="reset" class="btn btn-secondary">Clear</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section End -->
+    </main>
+    <footer class="bg-primary text-white pt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#home" class="text-white">Home</a></li>
+              <li><a href="#about" class="text-white">About</a></li>
+              <li><a href="#course" class="text-white">Course</a></li>
+              <li><a href="#contact" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h5>Contact Us</h5>
+            <address>
+              <strong>The Muse</strong><br />
+              1234 Street Name<br />
+              City, Country<br />
+              <abbr title="Phone">Phone:</abbr> (123) 456-7890
+            </address>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h5>Follow Us</h5>
+            <div class="social-link">
+              <a
+                href="https://www.linkedin.com/in/adityanugrahadev"
+                class="text-white"
+              >
+                <i data-feather="linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+            <p>&copy; 2024 The Muse. Created by Aditya Nugraha.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Feather Icon Script -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- Javascript -->
+    <script src="assets/index.js"></script>
+  </body>
+</html>

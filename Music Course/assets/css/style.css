@@ -1,0 +1,103 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff6347;
+}
+
+.navbar-nav .dropdown-menu {
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #ff6347;
+    color: #FFFFFF;
+}
+
+.hero {
+    color: #FFFFFF;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+
+.hero .btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    background-color: #f8f9fa;
+}
+
+.about h2 {
+    color: #343a40;
+}
+
+.about p {
+    color: #343a40;
+}
+
+.about img {
+    border-color: #17a2b8;
+}
+
+.about .order-md-2 img {
+    border-color: #17a2b8;
+}
+
+.about .order-md-1 p {
+    color: #343a40;
+}
+
+.card {
+    background-color: #BA4A00;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.2);
+}
+
+.card-body {
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+.card:hover .card-body {
+    background-color: #f0f0f0;
+}
+
+.text-white {
+    color: #FFFFFF;
+    text-decoration: none;
+}
